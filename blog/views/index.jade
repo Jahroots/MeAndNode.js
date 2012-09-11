@@ -1,0 +1,16 @@
+extends layout
+
+block content
+	h1= title
+	p Welcome to #{title}
+	#articles
+		each article in articles
+			div.article
+				div.created_at= article.created_at
+				div.title
+					a(href="/blog/"+article._id)!= article.title
+					div.edit
+						a(href='/blog/edit/'+article._id) Edit
+				div.body= article.body
+	#socketArticles
+	//script(src='/javascripts/index.js')

@@ -1,0 +1,13 @@
+extends edit_layout
+
+block content
+ form( method="post", action="/blog/update")
+    div
+        div
+            span Title :
+            input(type="text", name="newTitle", id="newTitle",value=article.title)
+        div
+            span Body :
+            textarea( name="newBody", rows=20, id="newBody") #{article.body}
+        div#editArticleSubmit
+            input(type="submit", value="Send")input( type="hidden", name="_id", value=article._id.toHexString())

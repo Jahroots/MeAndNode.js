@@ -1,0 +1,11 @@
+{"ts":1347071505711,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"extends layout\n\nblock content\n\th1= title\n\tp Welcome to #{title}\n\t#articles\n\t\teach article in articles\n\t\t\tdiv.article\n\t\t\t\tdiv.created_at= article.created_at\n\t\t\t\tdiv.title\n\t\t\t\t\ta(href=\"/blog/\"+article._id)!= article.title\n\t\t\t\tdiv.body= article.body\t"]],"start1":0,"start2":0,"length1":0,"length2":247}]],"length":247}
+{"contributors":[],"silentsave":false,"ts":1347071599673,"patch":[[{"diffs":[[0,"ated_at\n"],[1,"                div.edit= a(href=\"/blog/edit/\"+article._id)!='Edit'\n"],[0,"\t\t\t\tdiv."]],"start1":148,"start2":148,"length1":16,"length2":84}]],"length":315,"saved":false}
+{"ts":1347071609302,"patch":[[{"diffs":[[0,"cle._id)"],[-1,"!"],[0,"='Edit'\n"]],"start1":207,"start2":207,"length1":17,"length2":16}]],"length":314,"saved":false}
+{"ts":1347071632249,"patch":[[{"diffs":[[0,"div.edit"],[-1,"="],[1,"\n                   "],[0," a(href="]],"start1":172,"start2":172,"length1":17,"length2":36}]],"length":333,"saved":false}
+{"ts":1347071664166,"patch":[[{"diffs":[[0,"cle._id)"],[-1,"="],[1," "],[0,"'Edit'\n\t"]],"start1":226,"start2":226,"length1":17,"length2":17}]],"length":333,"saved":false}
+{"ts":1347071770759,"patch":[[{"diffs":[[0,"dit\n"],[-1,"                    a(href=\"/blog/edit/\"+article._id) 'Edit'\n"],[0,"\t\t\t\t"]],"start1":177,"start2":177,"length1":69,"length2":8}]],"length":272,"saved":false}
+{"ts":1347071779394,"patch":[[{"diffs":[[0,"    "],[-1,"div.edit\n\t\t\t\t"],[0,"div."]],"start1":168,"start2":168,"length1":21,"length2":8}]],"length":259,"saved":false}
+{"ts":1347071823143,"patch":[[{"diffs":[[0,"_at\n"],[-1,"                "],[1,"\t\t\t\t"],[0,"div."]],"start1":152,"start2":152,"length1":24,"length2":12}]],"length":247,"saved":false}
+{"ts":1347071867299,"patch":[[{"diffs":[[0,"ated_at\n"],[1,"                div.edit\n"],[0,"\t\t\t\tdiv."]],"start1":148,"start2":148,"length1":16,"length2":41}]],"length":272,"saved":false}
+{"ts":1347071884297,"patch":[[{"diffs":[[0,"_at\n"],[-1,"                "],[0,"div."]],"start1":152,"start2":152,"length1":24,"length2":8}]],"length":256,"saved":false}
+{"ts":1347071896776,"patch":[[{"diffs":[[0,"_at\n"],[-1,"div.edit\n"],[0,"\t\t\t\t"]],"start1":152,"start2":152,"length1":17,"length2":8}]],"length":247,"saved":false}
